@@ -1,0 +1,9 @@
+div{
+    height: 200px;
+    width: 400px;
+    background-image: url("allan-lainez-kUrN7skF79I-unsplash.jpg");
+    background-size:cover;
+    margin: 10px auto;
+    background-color: aquamarine;
+    color: white;
+}

@@ -1,0 +1,7 @@
+div[id="My ID"] p{
+    color:green;
+}
+
+#My ID p{
+    color:green;
+}

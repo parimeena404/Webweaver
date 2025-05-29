@@ -1,0 +1,9 @@
+#box{
+    height: 100px;
+    width: 100px;
+    background-color:blueviolet;
+    margin: 20px auto;
+    text-align: center;
+    box-shadow: 2px 2px 7px green;
+
+}
