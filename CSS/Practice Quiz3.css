@@ -1,0 +1,12 @@
+h1{
+
+    text-align:center;
+    color: #ffa511;
+    font-size: 55px;
+    font-weight: 900;
+    font-family: 'League spradan';
+    letter-spacing: 2px;
+    line-height: 1.5;
+    text-decoration: teal double underline ;
+    text-transform: uppercase;
+};

@@ -1,0 +1,1 @@
+const someValue = require("./math.js");

@@ -1,0 +1,16 @@
+@media only screen and (max-width: 1024px) {
+    #title {
+      text-align: center;
+    }
+  
+    .image-iphone {
+      position: static;
+      transform: rotate(0);
+      width: 50%;
+    }
+  
+    h2 {
+      font-size: 2rem;
+    }
+  }
+  
