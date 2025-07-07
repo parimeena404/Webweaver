@@ -1,14 +1,18 @@
 import './App.css'
 import LudoBoard from "./LudoBoard";
 import TodoList from "./TodoList";
-import Lottery from "./Lottery.jsx";
+import Lottery from "./Lottery";
 import Ticket from "./Ticket";
+import {sum} from "./helper";
 
-function App() {
-  
-  return (
+function App(){
+  let winCondition = (ticket)=>{
+    return ticket.every((num) => num === ticket[0]);
+  };
+
+  return(
     <>
-      <Ticket ticket = {[0, 1, 2]}/>
+      <Lottery n={3} winCondition={winCondition}/>
     </>
   );
 }
